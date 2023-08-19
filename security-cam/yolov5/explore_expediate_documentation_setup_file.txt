@@ -1,0 +1,158 @@
+# use google colab for traning - Notebook name
+Name - "D:\vision\yolov5_custom\drive\yolov5\nagesh_Build_yolov5_custom_data_training.ipynb"
+
+------------------------------------------------------------------------------------------------------------------
+
+# environments
+(face_recognition) D:\vision\pi_face_recognition>
+
+
+
+*task-1
+
+# Run the env from path -
+(thermal2) D:\vision\thermal\thermal\yolov5
+
+# Run the below command line arguments
+python detect.py --weights --weights "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/best_100_epochs.pt" --source "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/nagesh_video.mp4" --data "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/data.yaml" --view-img
+
+# output will be created at below path, with exp*
+D:/vision/yolov5_custom/drive/yolov5\runs\detect\exp3
+
+----------------------------------------------------------------------------------------------------------
+*annotation
+
+https://www.youtube.com/watch?v=x0ThXHbtqCQ
+
+https://app.roboflow.com/nageswaranb/security-camera-v1/1
+
+-----------------------------------------------------------------------------------------
+
+*task-2
+
+# Reference link
+https://www.youtube.com/watch?v=fu2tfOV9vbY
+https://www.youtube.com/watch?v=RXbtSwZsoEU
+
+# environment
+(yolov5) D:\vision\yolov5_custom\drive\yolov5>python detect.py --source 0
+
+# run with computer camera
+python detect.py --source 0
+
+# wrong command - check the comand
+python detect.py --weights yolov5 --data "D:\vision\yolov5_custom\drive\yolov5\video_dataset\The_Kids_Play_with_a_Real_Truck.mp4"
+
+# right command for video
+python detect.py --weights yolov5x.pt --source "D:\vision\yolov5_custom\drive\yolov5\video_dataset\The_Kids_Play_with_a_Real_Truck.mp4" --view-img
+
+
+----------------------------------------------------------------------------------------------------------
+*file explorer kept opened
+
+D:\vision\yolov5_custom\drive\yolov5\runs\detect\exp13
+D:\vision\face_detection_video
+
+*checks to keep for issues.
+if the c-drive space decreases, try to do diskcleanup and delete environments
+
+# to use video of web camera
+D:\vision\face_detection_video\video_template.py
+D:\vision\face_detection_video\detect_faces_video.py
+
+----------------------------------------------------------------------------------------------------------
+
+* task-4
+
+
+# twilio - "recovery code"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+# twilio dashboard
+https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1
+
+# AccountSID and AuthToken to get it in one place on twilio
+link - https://console.twilio.com/us1/account/keys-credentials/api-keys
+sidddddddddddddddddddddddddd         and            tokennnnnnnnnnnnnnnnnn
+
+# test credential
+test_sidddddddddddddddddddddddddd
+test_tokennnnnnnnnnnnnnnnnn
+
+# follow the below link to send sms
+https://stackoverflow.com/questions/28008938/send-sms-with-trial-twilio-account
+
+# to send sms directly use the below link
+https://console.twilio.com/us1/develop/sms/try-it-out/send-an-sms
+
+# My Twilio phone number
++1234567890
+
+# aws s3 bucket
+https://us-east-1.console.aws.amazon.com/kms/home?region=us-east-1#/kms/keys/create
+
+# upload to s3 bucket
+https://eu-north-1.console.aws.amazon.com/s3/upload/security-camera-v1?region=us-east-1
+
+# access key
+https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/security_credentials
+
+Access key
+access_key_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+Secret access key
+secret_access_key_bbbbbbbbbbbbbbbbbbbbbbbb
+
+# Access point
+https://s3.console.aws.amazon.com/s3/ap/create?region=ap-south-1&bucket=security-camera-v1
+
+# to make s3 publicaly accessible
+# go to this page - https://s3.console.aws.amazon.com/s3/buckets/security-camera-v1?region=us-east-1&tab=permissions
+# And change the ACL setting to second option
+# And then go to this page - https://s3.console.aws.amazon.com/s3/bucket/security-camera-v1/property/acl/edit?region=ap-south-1
+# And choose Read for all 
+# Now in this page - https://s3.console.aws.amazon.com/s3/buckets/security-camera-v1?region=us-east-1&tab=permissions
+# You will see "Publicaly accessible" in red colour.
+
+# to fix s3 code
+https://www.youtube.com/watch?v=7r2z3Qn3Qz8
+https://github.com/irtiza07/s3-boto3-tutorial/blob/master/s3_tutorial.py
+
+# S3 testrun result
+#############################################################
+(face_recognition) D:\vision\pi_face_recognition>python "C:\Users\Nageswaran B\AppData\Roaming\JetBrains\PyCharmCE2021.3\scratches\scratch.py"
+C:\Users\Nageswaran B\Anaconda3\envs\face_recognition\lib\site-packages\boto3\compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+D:/vision/face_recognition/intruder/test_nagesh.jpg
+https://security-camera-v1.s3.ap-south-1.amazonaws.com/test_nagesh.jpg?AWSAccessKeyId=aaaaaaaaaaaaaaaaaaaaaaaa&Signature=fuJDxWvTjkMTd1jhK0LWVTp60WA%3D&Expires=1691820498
+#############################################################
+
+# To check if message is failing or not
+https://console.twilio.com/us1/monitor/logs/sms
+
+# keep an eye on twiio and s3 bucket for charging for next 1 month
+
+
+# deleted these environmental variables while creating yolov5 environment
+C:\Users\Nageswaran B\Anaconda3\
+C:\Users\Nageswaran B\AppData\Roaming\Python\Python37\Scripts
+%PyCharm Community Edition%
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+* Once the traning is done, download the model to local with 100epochs
+(yolov5) D:\vision\yolov5_custom\drive\yolov5>python detect.py --weights "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/best_100_epochs.pt" --source "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/nagesh_video.mp4" --data "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/data.yaml" --view-img
+
+(yolov5) D:\vision\yolov5_custom\drive\yolov5>python detect.py --weights "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/best_100_epochs.pt" --source "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/nagesh_2_video.mp4" --data "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/data.yaml" --view-img
+
+%%%%%%%% Although the model is predicting only nagesh class. some issue. but proceding further!
+----------------------------------------------------------------------------------------------------------
+
+# Use the script - "D:\vision\yolov5_custom\drive\yolov5\detect_security_camera_file.py"
+# to run and check, which will send notification using twilio, by uploading file to s3 bucket.
+
+# To run and check in windows as command line arguments for cleared output.
+(yolov5) D:\vision\yolov5_custom\drive\yolov5>python "D:/vision/yolov5_custom/drive/yolov5 - Copy/detect_security_camera_file.py" --weights "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/best_100_epochs.pt" --source "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/nagesh_video.mp4" --data "D:/vision/yolov5_custom/drive/yolov5/bringing_yolo/data.yaml" --view-img
+
