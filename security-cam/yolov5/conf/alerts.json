@@ -1,0 +1,11 @@
+{
+	"aws_access_key_id": "aws_access_key_id",
+	"aws_secret_access_key": "aws_secret_access_key",
+	"s3_bucket": "security-camera-v1",
+	"twilio_sid": "twilio_sid",
+	"twilio_auth": "twilio_auth",
+	"twilio_to": "+911234567890",
+	"twilio_from": "+1478249666",
+	"message_body": "An unauthorized user is sitting at your desk.",
+	"wait_n_seconds": 300
+}
