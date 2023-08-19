@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['nagesh', 'unknown']
+
+roboflow:
+  workspace: nageswaranb
+  project: security-camera-v1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nageswaranb/security-camera-v1/dataset/2
